@@ -4,96 +4,133 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-    <title>MiceRaid! » Transformice Pirata 2024 - 2025 (TransforRaid)</title>
+    <title>MiceRaid ! » Transformice Pirata 2024 - 2025 (TransforRaid)</title>
     <meta name="description" content="Transformice Pirata 2024, Títulos Personalizados y VIP, Fresas y Quesos ilimitados - Standalone y Fullscreen!">
     <meta name="keywords" content="transformice pirata, mice pirata, mice, como jugar transformice 2024, transformice, transformice con vacantes, queso, Los 10 mejores juegos piratas de Transformice, standalone, fullscreen, bestmice, micemixy, miceforce, hardmice, tfmselect, icemice, miceleague, miceway, room32 transformice pirata 2024, transformice pirata 2025">
     <meta name="robots" content="all">
     <meta property="og:title" content="MiceRaid">
     <meta property="og:description" content="MiceRaid es un juego multijugador, ¡donde juegas como un pequeño ratón en busca de queso!">
-    <meta property="og:image" content="https://miceraid.net/">
+    <meta property="og:image" content="https://miceraid.net/og-image.jpg">
     <link rel="icon" type="image/png" href="https://miceraid.net/favicon.png">
     <link rel="stylesheet" type="text/css" href="css/tfm.css">
     <link rel="stylesheet" type="text/css" href="css/flickity.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="conteneurFromage" style="position: relative; width: 40vw; margin: auto; margin-bottom: 1em;">
-        <div id="logo" style="width: 100%; display: flex;">
-            <img style="width: 100%; max-width: 427px; margin: auto;" src="logo-miceraid.png" alt="Logo MiceRaid">
-        </div>
-    </div>
-    
-    <div id="carousel" class="carousel" data-flickity="{}">
-        <div class="carousel-cell">
-            <div class="conteneur">
-                <a href="https://www.youtube.com/watch?v=JggJJaksYKQ"><img src="gameplay-miceraid.webp" alt="Gameplay MiceRaid"></a>
-            </div>
-        </div>
-        <div class="carousel-cell">
-            <div class="conteneur">
-                <img src="images/x_transformice/x_connexion/x_miceraid2024.png" alt="MiceRaid 2024">
-            </div>
-        </div>
-        <div class="carousel-cell">
-            <div class="conteneur">
-                <img src="images/x_transformice/x_connexion/x_miceraid2023.png" alt="MiceRaid 2023">
-            </div>
-        </div>
-        <div class="carousel-cell">
-            <div class="conteneur">
-                <iframe src="https://discord.com/widget?id=1229486297140428800&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    <div class="header">
+        <div class="container">
+            <div id="logo-container">
+                <img class="logo" src="logo-miceraid.png" alt="Logo MiceRaid">
             </div>
         </div>
     </div>
     
-    <div>
-        <div style="text-align: center">
-            <span>💻</span><a class="liens" href="TFM/standalone/StandaloneRaid.zip">Versión Standalone</a>
-            <span>⚡️</span><a class="liens" href="downloads/Adobe.zip">Adobe AIR</a>
-            <span>⚡️</span><a class="liens" href="downloads/Adobe_10.exe">Adobe Flash Player 10</a>
-            <span>💬</span><a class="liens" href="https://foro.miceraid.net/">Foro MiceRaid</a>
-            <span>💬</span><a class="liens" href="https://facebook.com/miceraid">¡Facebook!</a>
-            <span>💬</span><a class="liens" href="https://twitter.com/realMiceRaid">¡Twitter!</a>
+    <div class="main-content">
+        <div class="container">
+            <div id="carousel" class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": 3500 }'>
+                <div class="carousel-cell">
+                    <div class="conteneur">
+                        <a href="https://www.youtube.com/watch?v=JggJJaksYKQ" class="video-link">
+                            <img src="gameplay-miceraid.jpg" alt="Gameplay MiceRaid">
+                            <div class="play-button">▶</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="conteneur">
+                        <img src="images/x_transformice/x_connexion/x_miceraid2024.jpg" alt="MiceRaid 2024">
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="conteneur">
+                        <img src="images/x_transformice/x_connexion/x_miceraid2023.jpg" alt="MiceRaid 2023">
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="conteneur">
+                        <div class="discord-widget">
+                            <iframe src="https://discord.com/widget?id=1229486297140428800&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="download-section">
+                <div class="download-title">
+                    <h2>¡Juega Ahora a MiceRaid!</h2>
+                    <p>La mejor versión pirata de Transformice con quesos ilimitados</p>
+                </div>
+                
+                <div class="download-links">
+                    <a class="download-button" href="TFM/standalone/StandaloneRaid.zip">
+                        <span class="icon">💻</span>
+                        <span class="text">Versión Standalone</span>
+                    </a>
+                    <a class="download-button" href="downloads/Adobe.zip">
+                        <span class="icon">⚡️</span>
+                        <span class="text">Adobe AIR</span>
+                    </a>
+                    <a class="download-button" href="downloads/Adobe_10.exe">
+                        <span class="icon">⚡️</span>
+                        <span class="text">Adobe Flash Player 10</span>
+                    </a>
+                </div>
+                
+                <div class="social-links">
+                    <a class="social-button" href="https://foro.miceraid.net/">
+                        <span class="icon">💬</span>
+                        <span class="text">Foro MiceRaid</span>
+                    </a>
+                    <a class="social-button" href="https://facebook.com/miceraid">
+                        <span class="icon">📱</span>
+                        <span class="text">Facebook</span>
+                    </a>
+                    <a class="social-button" href="https://twitter.com/realMiceRaid">
+                        <span class="icon">🐦</span>
+                        <span class="text">Twitter</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="features-section">
+                <div class="feature">
+                    <div class="feature-icon">🧀</div>
+                    <h3>Quesos Ilimitados</h3>
+                    <p>Consigue todos los quesos que quieras sin restricciones</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">👑</div>
+                    <h3>Títulos VIP</h3>
+                    <p>Personaliza tu experiencia con títulos exclusivos</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🌐</div>
+                    <h3>Comunidad Activa</h3>
+                    <p>Únete a miles de jugadores en línea</p>
+                </div>
+            </div>
         </div>
     </div>
     
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 MiceRaid.net - La mejor versión pirata de Transformice</p>
-            <p>¡Únete a nuestra comunidad y disfruta de quesos ilimitados!</p>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo-footer.png" alt="MiceRaid Logo" width="120">
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2025 MiceRaid.net - La mejor versión pirata de Transformice</p>
+                    <p>¡Únete a nuestra comunidad y disfruta de quesos ilimitados!</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://discord.gg/miceraid" class="footer-social-link">Discord</a>
+                    <a href="https://foro.miceraid.net" class="footer-social-link">Foro</a>
+                    <a href="https://facebook.com/miceraid" class="footer-social-link">Facebook</a>
+                </div>
+            </div>
         </div>
     </footer>
 
     <script type="text/javascript" src="js/flickity.pkgd.min.js"></script>
-    <script>
-        (function() {
-            var altura = 100;
-            var velocidadY = 0;
-            var posY = 0;
-            var ultimoCiclo = Date.now();
-            var logo = document.getElementById("logo");
-            
-            var ciclo = function () {
-                requestAnimationFrame(ciclo);
-                var tiempo = Date.now();
-                var transcurrido = tiempo - ultimoCiclo;
-                var segundo = transcurrido / 100.0;
-                ultimoCiclo = tiempo;
-
-                velocidadY += segundo * 2;
-                if (velocidadY > 10) {
-                    velocidadY = 10;
-                }
-                posY += velocidadY * segundo;
-                if (posY > altura) {
-                    posY = altura;
-                    velocidadY = -10;
-                }
-
-                logo.style.marginTop = posY + "px";
-            };
-            
-            ciclo();
-        })();
-    </script>
 </body>
 </html>
